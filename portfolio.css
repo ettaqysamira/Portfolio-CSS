@@ -80,8 +80,9 @@
   }
   
   .pic img {
-    margin-top: -20px;
+    margin-top: -10px;
     margin-left: 15px;
+    padding-top: 34px;
     width: 85%;
    
   }
@@ -204,7 +205,7 @@
   }
   
   .submit-button {
-    background-color: blueviolet;
+    background-color: #0077CC;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -236,7 +237,7 @@
        height: 40px;
        width: 200px;
        border-radius: 50px;
-       background-color: blueviolet;
+       background-color: #0077CC;
        color: white;
        
      }
