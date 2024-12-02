@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckpointPortfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbaaar">
+            <div class="logo"> 
+                <h4>Samira<span>Portfolio</span></h4>
+            </div>
+           
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li ><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li ><a href="#resume">Resume</a></li>
+                <li ><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <!--section about with buttons resume-->
+    <section class="about" id="resume">
+      <div class="presentation">
+         <p><span class="presentation1">Hi!</span><span class="fullname"> I'm Samira</span><br>
+          a passionate computer science engineer with a background in web development,<br>
+          I graduated with a Bachelor's degree in Computer Engineering from FST Settat. <br>
+          Currently, I am improving my skills by studying  a Full-Stack development bootcamp <br>
+          at GoMyCode.
+         </p>
+      <div class="btn"><button class="button1">Download CV</button>
+        <button class="button2"><a href="https://www.linkedin.com/in/samira-ettaqy-2ab299316/">linkedin account</a></button></div>
+      </div>        
+      <div class="pic"><img src="profil.png" alt="prfil"></div>
+    </section>
+
+     <!--section work-->
+    <section id="work">
+            <h2>My Projects:</h2>
+            <div class="container">
+                <div class="projet-div">
+                    <div class="projet">
+                      <img class="image-projet" src="prj3.png" alt="projet3">
+                    </div>
+                    <div class="details">
+                      <h1>Bank Loan Management System</h1>
+                      <p>
+                        A web application designed to simulate and calculate loan options, allowing users to view loan offers and submit their loan requests
+                      </p>
+                    </div>
+                  </div>
+    
+                  <div class="projet-div">
+                    <div class="projet">
+                      <img class="image-projet" src="projet1.png" alt="projet3">
+                    </div>
+                    <div class="details">
+                      <h1>Online Recruitment Platform</h1>
+                      <p>
+                        A web-based system built with PHP, HTML, CSS, and JavaScript, enabling job postings, candidate applications, and recruitment management with user authentication and an admin dashboard.
+                      </p>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+         <!--section contact-->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Do you have a project or want to discuss ideas with a web developer? Let me know what you need<br>
+            I'm here to listen!</p>
+            <form class="contact-form">
+                <label for="yourname">Your Name:</label>
+                <input type="text" id="yourname"name="yourname" >
+                <label for="youremail">Your Email:</label>
+                <input type="email" id="youremail" name="youremail"><br>
+                <label for="subject">Subject:</label>
+                <input type="text" for="subject" name="subject"><br>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"></textarea><br>
+                <button type="submit" class="submit-button">Send your Message</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
